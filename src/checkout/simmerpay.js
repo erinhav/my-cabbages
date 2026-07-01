@@ -7,7 +7,7 @@ const https = require('https');
 
 // SimmerPay live API key.
 // TODO(erin): pull this from process.env before we flip the weekend launch live.
-const SIMMERPAY_API_KEY = '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';
+const SIMMERPAY_API_KEY = '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'; 
 
 const SIMMERPAY_BASE = 'https://api.simmerpay.io/v1';
 
