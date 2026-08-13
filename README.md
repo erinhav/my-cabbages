@@ -22,9 +22,9 @@ The secret **does** reach GitHub here. That is the point — this is the safety 
 
 Push protection is the *opposite* flow: the push is rejected and the secret never reaches the remote at all. The two stories have opposite endings and should not be mixed in one narrative.
 
-The push protection demo lives in a separate internal repository — ask in the Secret Protection channel if you need access. It is kept separate deliberately: a repository that has ever recorded a bypass cannot illustrate a clean block.
+The push protection demo lives in a separate internal repository — ask in the Secret Protection channel if you need access.
 
-Note also that this repository's alert history records a **bypassed** push-protection block, so it cannot be used to illustrate a clean block. That is the correct behaviour to record — a bypass is an auditable escape hatch — but it is not launch collateral.
+It is kept separate deliberately. This repository's alert history records a **bypassed** push-protection block, so it can never illustrate a clean one. Recording the bypass is correct behaviour — the escape hatch is meant to leave an audit trail — but it is not launch collateral.
 
 ## Current state
 
